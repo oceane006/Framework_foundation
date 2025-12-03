@@ -1,0 +1,25 @@
+{
+  "name": "framworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "foundation-sites": "^6.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mika777m/Frameworks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mika777m/Frameworks/issues"
+  },
+  "homepage": "https://github.com/Mika777m/Frameworks#readme"
+}
