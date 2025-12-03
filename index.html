@@ -1,194 +1,178 @@
-<!doctype html>
-<html lang="fr">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>PIYA — Maquette</title>
-
-    <!-- Foundation -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil-Assistance Gestion Informatique</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
-<body class="corp" style="font-family: Open Sans sans-serif; color: #222">
-
-    <!-- 🔹 BARRE PROMO -->
-    <div class="promo-bar" style="font-family: Open Sans sans-serif; color: #222">
-        <div class="grid-container text-center">
-            Obtenez <strong>-10 % EXTRA</strong> sur votre 1ER ACHAT avec le code promo :
-            <strong>PIYA976</strong>
+<body>
+    <header class="grid-x grid-margin-x align-middle" style="padding: 1rem 3rem; margin-bottom: 2rem;">
+        <div class="cell small-12 medium-6 text-center medium-text-left">
+            <h1 style="color: #1e3a8a; font-weight: bold; margin-bottom: 0; margin-top: 0.25rem; font-size: 4.5rem; line-height: 1;">AGI</h1>
+            <p style="font-style: italic; line-height: 1; font-size: 17px; margin-top: 0; margin-bottom: 0;">Assistance Gestion Informatique</p>
+            <p style="font-style: italic; line-height: 1; font-size: 10px; margin-top: 0;">CAP SUR LA PERFORMANCE</p>
         </div>
-    </div>
-
-    <!-- 🔹 HEADER -->
-    <header class="site-header" style="padding: 20px 0;
-    border-bottom: 1px solid #eee;">
-        <div class="grid-container">
-            <div class="grid-x align-middle align-justify">
-
-                <div class="cell shrink logo" style="font-size: 28px;
-    font-weight: 700; font-family: Playfair Display, serif;">PIYA</div>
-
-                <nav class="cell medium-shrink nav-menu show-for-medium" style="font-size: 13px;
-    font-weight: 500;font-family:Cambria; color: dimgray;">
-                    <a href="#">ACCUEIL </a>
-                    <a href="#">BOUTIQUE </a>
-                    <a href="#">À PROPOS </a>
-                    <a href="#">PANIER </a>
-                    <a href="#">COMMANDE </a>
-                </nav>
-
-                <div class="cell shrink icons" style="margin-left: 14px;font-size: 18px;">
-                    <span>🔍</span>
-                    <span>♡</span>
-                </div>
-
-            </div>
-            <div class="text-center sous-texte" style="margin-top: 8px;font-size: 14px;color: #666;">
-                Prêt à porter pour hommes et femmes
-            </div>
+        <div class="cell small-12 medium-6">
+            <ul class="menu align-center medium-align-right" style="font-weight: 500;">
+                <li><a href="accueil.html" style="color: #d97706; text-decoration: none; padding-bottom: 0.5rem; border-bottom: 3px solid #d97706;">Accueil</a></li>
+                <li><a href="presentation.html" style="color: #000; text-decoration: none; padding-bottom: 0.5rem; border-bottom: 3px solid transparent;">Nos presentations</a></li>
+                <li><a href="logiciel.html" style="color: #000; text-decoration: none; padding-bottom: 0.5rem; border-bottom: 3px solid transparent;">Nos logiciels</a></li>
+                <li><a href="etudiant.html" style="color: #000; text-decoration: none; padding-bottom: 0.5rem; border-bottom: 3px solid transparent;">Espace etudiants</a></li>
+                <li><a href="tarifs.html" style="color: #000; text-decoration: none; padding-bottom: 0.5rem; border-bottom: 3px solid transparent;">Tarifs</a></li>
+                <li><a href="blog.html" style="color: #000; text-decoration: none; padding-bottom: 0.5rem; border-bottom: 3px solid transparent;">Blogs</a></li>
+                <li><a href="contact.html" style="color: #000; text-decoration: none; padding-bottom: 0.5rem; border-bottom: 3px solid transparent;">Contacts</a></li>
+                <li><i class="fa-solid fa-cart-shopping" style="font-size: 1.125rem;"></i></li>
+            </ul>
         </div>
     </header>
 
-    <!-- 🔹 HERO -->
-    <section class="hero-section" style=" background: #d7d4f8;text-align: center; padding: 35px 10px 0;">
-        <h1 style="font-family: Playfair Display, serif;font-size: 28px">PIYA, de tout partout, pour vous</h1>
-        <h2 style=" font-family: Playfair Display, serif;font-size: 18px;margin-bottom: 15px">PIYA MAYOTTE, LA NOUVELLE MODE.</h2>
-        <a class="button secondary" style="border-bottom: 1px solid white;color: white;">COLLECTION RAMADAN</a>
-        <img src="WhatsApp Image 2025-11-26 at 07.13.46 (2).jpeg" class="hero-img" style=" width: 100%;
-    margin-top: 15px;">
-    </section>
-
-    <!-- 🔹 CATÉGORIES -->
-    <section class="grid-container categories" style="font-family: Playfair Display, serif;text-align: center;margin: 40px 0 20px">
-
-        <div class="grid-x align-middle align-center word-line">
-  <div class="cell auto line"></div>
-  <h2 class="section-title">Catégorie</h2>
-  <div class="cell auto line"></div>
+    <section style="position: relative; margin-top: 2rem; overflow: hidden;">
+        <img src="img/photo1.jpeg" style="width: 100%; height: auto; display: block;" alt="Analyse financiere">
+        <div class="show-for-small-only" style="position: absolute; bottom: 1rem; right: 1rem; background-color: rgba(30, 58, 138, 0.8); padding: 1rem; border-radius: 0.25rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); text-align: center; width: 91.666667%; color: white;">
+            <h2 style="font-size: 1.125rem; font-weight: 600; color: white; margin-bottom: 0.5rem;">Initiation a l'analyse financiere</h2>
+            <p style="margin-top: 0.5rem; font-size: 0.875rem;">Exercices d'analyse financiere.<br>
+            Pour en savoir plus sur l'assistance de gestion et sur toutes 
+            les applications financiere et remplissez le formulaire de contact</p>
         </div>
-
-
-        <div class="grid-x grid-margin-x text-center">
-
-            <div class="cell medium-4">
-                <img src="hutomo-abrianto-X5BWooeO4Cw-unsplash-scaled-e1613043605181.jpg" style=" width: 100%;height: 250px;object-fit: cover">
-                <h4 style="font-weight: 600;margin-top: 10px;">MAISON</h4>
-                <a class="button hollow strong">DÉCOUVRIR</a>
-            </div>
-
-            <div class="cell medium-4">
-                <img src="WhatsApp Image 2025-11-26 at 07.23.38.jpeg" style="width: 100%; height: 250px;object-fit: cover;">
-                <h4 style="font-weight: 600;margin-top: 10px;">FEMME</h4>
-                <a class="button hollow strong">DÉCOUVRIR</a>
-            </div>
-
-            <div class="cell medium-4">
-                <img src="téléchargement (2).jpeg"style="width: 100%; height: 250px;object-fit: cover;">
-                <h4>ACCESSOIRE</h4>
-                <a class="button hollow strong">DÉCOUVRIR</a>
-            </div>
-
+        <div class="hide-for-small-only" style="position: absolute; bottom: 2rem; right: 2rem; background-color: rgba(30, 58, 138, 0.8); padding: 2rem; border-radius: 0.25rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); text-align: center; width: 50%; color: white;">
+            <h2 style="font-size: 1.5rem; font-weight: 600; color: white; margin-bottom: 0.5rem;">Initiation a l'analyse financiere</h2>
+            <p style="margin-top: 1rem; font-size: 1rem;">Exercices d'analyse financiere.<br>
+            Pour en savoir plus sur l'assistance de gestion et sur toutes 
+            les applications financiere et remplissez le formulaire de contact</p>
         </div>
     </section>
 
-    <!-- 🔹 PRODUITS RÉCENTS -->
-    <section class="grid-container produits">
-
-        <h2 class="section-title">Produits récents</h2>
-
-        <div class="grid-x grid-margin-x">
-
-            <div class="cell medium-4 product-card">
-                <img src="téléchargement (3).jpeg">
-                <div class="title">Enceinte portable PIYA</div>
-                <div class="price">69,99 € <span class="old-price">99,99 €</span></div>
-                <a class="button hollow expanded">AJOUTER AU PANIER</a>
+    <section class="grid-container" style="padding: 2.5rem 1rem;">
+        <div class="grid-x grid-margin-x align-middle">
+            <div class="cell small-12 medium-5">
+                <img src="img/photo2.jpeg" style="max-width: 100%; height: auto;" alt="Image graphique">
             </div>
-
-            <div class="cell medium-4 product-card">
-                <img src="téléchargement (5).jpeg">
-                <div class="title">Short gainant</div>
-                <div class="price">29,99 €</div>
-                <a class="button hollow expanded">AJOUTER AU PANIER</a>
+            <div class="cell small-12 medium-7">
+                <h4 style="text-align: center; color: #1e3a8a; margin-bottom: 0;">Site destine aux etudiants en comptabilites gestion.<br>
+                ------------------------------------------</h4>
+                <h3 style="text-align: center; color: #1e3a8a; line-height: 1.25; margin-top: 0;">MAITRISEZ L'ANALYSE FINANCIERE avec le logiciel :</h3>
+                <p style="text-align: center; color: #1e3a8a; font-size: 1.25rem;">L'assistant de  gestion pour Excel.</p> 
+                <h6 style="text-align: center; color: #1e3a8a; margin-top: 0;">Version 3.80 du 31/03/2021</h6>
+                <div style="text-align: center;">
+                    <p style="margin-top: 0;">Comprendre l'entreprise par la dynamique des flux de tresorerie.
+                    Surveiller les indicateurs clefs pour prevenir la defaillance des
+                    entreprises. Realiser en quelques minutes un <strong>diagnostic</strong> complet.<br>
+                    Cette version "etudiants" permet a travers de nombreux exemples de
+                    pratiquer tres rapidement le diagnostic financier.<br>
+                    <strong>Elle</strong> est en effet enrichie <strong>d'exemples concrets</strong> d'analyse qui vous aideront
+                    a maitriser l'analyse <strong>financiere</strong> dans differents secteurs d'activite. <strong>Une longue
+                    experience professionnelle et pedagogique nous a montre qu'une bonne facon de parfaire
+                    ses connaisances est de les mettre en application a travers des exemples concrets.</strong><br>
+                    La pertinence d'une information de gestion se mesure plus par sa rapidite
+                    d'obtention que par son degre de precision.</p>
+                    <p style="line-height: 1; margin-top: 0; margin-bottom: 1.75rem;"><strong>Licence a partir de 12,90$</strong></p>
+                    <a href="#special-etudiant" class="button" style="background-color: #000; color: white; text-decoration: none; font-weight: 600; padding: 0.5rem 1.5rem; border-radius: 9999px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); display: inline-block;">Special etudiants</a>
+                </div>
             </div>
+        </div>
+    </section>
 
-            <div class="cell medium-4 product-card">
-                <img src="téléchargement.jpeg">
-                <div class="title">Jupe et top artistique simple</div>
-                <div class="price">34,50 €</div>
-                <a class="button hollow expanded">AJOUTER AU PANIER</a>
+    <section style="background-color: #1e3a8a; color: white; padding: 3rem 0;">
+        <h2 style="text-align: center; font-size: 1.5rem; font-weight: bold; margin-bottom: 1rem;">L'assistant de gestion</h2>
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x align-middle">
+                <div class="cell small-12 medium-6" style="padding: 0 3rem;">
+                    <p style="margin-bottom: 0.5rem;">L'outil de controle et de suivi de l'entreprise.</p>
+                    <p style="margin-bottom: 1.25rem;">Avec le logiciel l'assistant de gestion, surveillez regulierement la sante financiere
+                    des entreprises que vous conseillez.</p>
+                    <h3><strong>PHILOSOPHIE DU LOGICIEL.</strong></h3>
+                    <p>L'assistant de gestion permet a partir des donnees compatibles (balance) 
+                    d'avoir une vision dynamique de l'entreprise en mettant en evidence les flux financiers 
+                    sur plusieurs annees (5 ans), et de controler les indicateurs de rentabilite, d'equilibre
+                    financier et de croissance.<br>
+                    Vous etes expert-comptable, dynamisez l'entretien annuel de presentation des comptes en elargissant
+                    le champ de vision de l'analyse.<br>
+                    Quelques clics suffisent pour realiser un dossier d'analyse complet.</p>
+                    <p><strong style="margin-bottom: 0;">Logiciel realise en partenariat avec la societe High Navation.</strong></p><br>
+                    <div style="margin-bottom: 0.75rem;">
+                        <a href="#testez-gratuit" class="button" style="background-color: #6b7280; color: white; text-decoration: none; font-weight: 600; padding: 0.5rem 1.5rem; border-radius: 9999px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); display: inline-block;">
+                            Testez Gratuitement <i class="fa-solid fa-paper-plane" style="font-size: 0.75rem;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="cell small-12 medium-6 text-right">
+                    <img src="img/photo3.jpeg" alt="Image plan" style="height: auto; max-height: 450px; display: block; margin-left: auto;">
+                </div>
             </div>
-
         </div>
     </section>
 
-    <!-- 🔹 CONTACT -->
-    <section class="grid-container contact">
-
-        <h2 class="section-title">Contactez Nous</h2>
-
-        <form>
-
-            <label>Nom
-                <input type="text" placeholder="Nom">
-            </label>
-
-            <label>E-mail
-                <input type="email" placeholder="Email">
-            </label>
-
-            <label>Message
-                <textarea placeholder="Message"></textarea>
-            </label>
-
-            <button class="button expanded envoyer-btn">ENVOYER</button>
-        </form>
-
+    <section class="grid-container" style="padding: 3rem 1rem;">
+        <h1 style="text-align: center; font-weight: bold; color: #1e40af; padding: 1.25rem 0; font-size: 1.5rem;">Pourquoi Assistance Gestion Informatique</h1>
+        <div style="max-width: 900px; margin: 0 auto;">
+            <p style="text-align: center;">Ces applications sont destinees a fournir <strong>une aide complementaire</strong> dans la getsion de votre
+            entreprise.<br><br><br>
+            Elles ne sauraient remplacer l'Expert Comptable. Elles n'ont pas pour but de se subsituer aux
+            situations intermediaires telles que peuvent les etablir les professionnels de la comptabilite.<br><br>
+            L'etablissemnt des situations intermediaires suppose de passer un grand nombre d'operations
+            diverses de facon a ce que les coomptes intermediaires presentent le meme degre de precision que les comptes
+            annules : ecritures d'inventaire, provisions charges a payer...<br><br>
+            <strong>Notre offre permet d'obtenir rapidement des etats de gestion</strong> presentant un niveau de precision
+            acceptable dans la mesure ou la comptabilite est a jour<br><br>
+            La pertinence d'une information de gestion se mesure plus par sa rapidite d'obtention que par son 
+            degre de precision.</p>
+        </div>
     </section>
 
-    <!-- 🔹 NEWSLETTER -->
-    <section class="newsletter text-center">
-
-        <p>Recevez des promotions exclusives et nouveautés</p>
-
-        <div class="grid-x grid-margin-x align-center">
-            <div class="cell medium-4">
-                <input type="email" placeholder="Saisissez votre adresse email">
-            </div>
-            <div class="cell shrink">
-                <button class="button black">M'INSCRIRE</button>
+    <footer style="background-color: #1e3a8a; color: white; padding: 3rem 0 0.25rem;">
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="cell small-12 medium-3 text-center">
+                    <h4 style="color: #fecaca; font-size: 1.875rem; font-weight: bold; margin-bottom: 0; margin-left: 3rem;">AGI</h4>
+                    <ul class="vertical menu" style="color: #d1d5db;">
+                        <li><a href="#" style="color: #d1d5db; text-decoration: none;"><i class="fa-solid fa-check"></i> Nos Logiciels</a></li>
+                        <li><a href="#" style="color: #d1d5db; text-decoration: none;"><i class="fa-solid fa-check"></i> Nos Abonnements</a></li>
+                        <li><a href="#" style="color: #d1d5db; text-decoration: none;"><i class="fa-solid fa-check"></i> Espace étudiants</a></li>
+                    </ul>
+                </div>
+                <div class="cell small-12 medium-3 text-center" style="border-left: 1px solid #9ca3af; padding-left: 1.5rem;">
+                    <h4 style="font-size: 1.125rem; line-height: 1; margin-bottom: 0;">Liens utiles</h4>
+                    <ul class="vertical menu" style="color: #d1d5db;">
+                        <li><a href="#" style="color: #d1d5db; text-decoration: none;"><i class="fa-solid fa-angles-right"></i> Utilitaires Excel</a></li>
+                        <li><a href="#" style="color: #d1d5db; text-decoration: none;"><i class="fa-solid fa-angles-right"></i> Actualités</a></li>
+                        <li><a href="#" style="color: #d1d5db; text-decoration: none;"><i class="fa-solid fa-angles-right"></i> Mentions Légales</a></li>
+                        <li><a href="#" style="color: #d1d5db; text-decoration: none;"><i class="fa-solid fa-angles-right"></i> CGV</a></li>
+                    </ul>
+                </div>
+                <div class="cell small-12 medium-3 text-center" style="border-left: 1px solid #9ca3af; padding-left: 1.5rem;">
+                    <h4 style="font-size: 1.125rem; line-height: 1; margin-bottom: 0;">Nous contacter</h4>
+                    <ul class="vertical menu" style="color: #d1d5db;">
+                        <li style="color: #d1d5db;"><i class="fa-solid fa-location-dot" style="font-size: 0.875rem; margin-right: 0.25rem;"></i> 17, Rue Paule Tiffy 34500 Béziers</li>
+                        <li style="color: #d1d5db;"><i class="fa-solid fa-phone" style="font-size: 0.875rem; margin-right: 0.25rem;"></i> 06 08 89 21 64</li>
+                        <li style="color: #d1d5db;"><i class="fa-solid fa-envelope" style="font-size: 0.875rem; margin-right: 0.25rem;"></i> agi.expert34@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="cell small-12 medium-3 text-center" style="border-left: 1px solid #9ca3af; padding-left: 1.5rem;">
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; gap: 1rem;">
+                        <div>
+                            <i class="fa-brands fa-xbox" style="font-size: 1.875rem;"></i>
+                        </div>
+                        <div style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
+                            <i class="fa-brands fa-facebook" style="font-size: 1.875rem; color: #3b82f6; margin: 0 0.5rem;"></i>
+                            <i class="fa-brands fa-linkedin" style="font-size: 1.875rem; color: #60a5fa; margin: 0 0.5rem;"></i>
+                            <i class="fa-brands fa-youtube" style="font-size: 1.875rem; color: #ef4444; margin: 0 0.5rem;"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-    </section>
-
-    <!-- 🔹 FOOTER -->
-    <footer class="site-footer text-center">
-
-        <nav>
-            <a href="#">Accueil</a> —
-            <a href="#">Boutique</a> —
-            <a href="#">À propos</a>
-        </nav>
-
-        <p>Tous droits réservés. © PIYA</p>
-        <small>Mention légales — CGV</small>
-
+        <div style="border-top: 1px solid #9ca3af; margin-bottom: 1rem;">
+            <p style="text-align: center; color: #d1d5db; font-size: 0.875rem; margin-top: 2rem;">
+            Copyright © 2022 AGI | Propulsé par ILO Madagascar</p>
+        </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js"></script>
     <script>
         $(document).foundation();
     </script>
-
 </body>
 </html>
